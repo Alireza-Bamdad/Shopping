@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__cart-icon">
+            <i class="fa-solid fa-cart-shopping "></i>
+            <p class="cart-counter">0</p>
+        </div>
+        <h3 class="navbar__title">Shop</h3>
+        <div class="navbar__menu"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+    <section class="container">
+        <div class="products"></div>
+    </section>
+    <section >
+        <div class="backdrop"></div>
+        <div class="cart-box">
+            <div class="cart">
+                <h2 class="cart__title">your Cart</h2>
+                <div class="cart__products"></div>
+                <div class="cart__btn">
+                    <p class="cart-total-price">totoalprice :100 $</p>
+                    <button class="clear-btn btn">clear</button>
+                    <button class="confirm-btn btn">confirm</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="/app.js"></script>
+</body>
+</html>
